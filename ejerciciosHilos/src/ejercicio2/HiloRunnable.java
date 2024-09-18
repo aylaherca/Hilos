@@ -9,6 +9,7 @@ public class HiloRunnable {
 		Thread hilo1 = new Thread(hiloRunnable);
 		hilo1.start();
 		
+		//Hilo hiloRunnable2 = new Hilo();
 		Thread hilo2 = new Thread(hiloRunnable);
 		hilo2.start();
 		
@@ -16,7 +17,7 @@ public class HiloRunnable {
 			System.out.println("Hilo 1 alive: " + hilo1.isAlive());
 			System.out.println("Hilo 2 alive: " + hilo2.isAlive());
 		}
-				
+		//System.out.println("hilo1 e hilo2 han terminado");				
 				
 
 	}
